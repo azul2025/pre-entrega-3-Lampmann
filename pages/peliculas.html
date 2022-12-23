@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- css nativo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>entrega 3</title>
+</head>
+
+<body>
+    <!----------- Header ----------->
+    <header class="navbar navbar-expand-lg border-bottom">
+        <div class="container">
+            <a class="navbar-brand texto-logo" href="#">Historia para Qué</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/libros.html">Libros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/personajes.html">Personajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/peliculas.html">Peliculas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/ayuda.html">Ayuda</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!----------- Portada ----------->
+        <section class="container pt-3 pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="../img/peliculas.svg" alt="ayuda" class="w-100">
+                </div>
+                <div class="col-12 col-lg-6 order-lg-first d-flex flex-column justify-content-center">
+                    <h1 class="text-center text-lg-start display-1 fw-bold pt-3">HISTORIA PARA QUÉ-<span
+                            class="titulo-destacado"> PELÍCULAS</span> </h1>
+                    <p class="text-center text-lg-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                        quam laborum eius aut omnis, voluptates harum, quo aliquam iusto illo ipsum. Quae quas natus
+                        provident quaerat ullam magnam qui laboriosam!</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="d-flex justify-content-center p-5 fw-bold">Nuestra selección para vos</h2>
+
+        <section class="container-fluid p-3 background--cuatro">
+        </section>
+        <section class="container p-3">
+            <div class="row d-flex justify-content-lg-between p-5">
+                <!--------- Arg1985 --------->
+                <div class="col-12 col-lg-3 border shadow p-4 mb-5 zoom background-cards-libros-alt">
+                    <h4 class="fw-semibold fs-1">Argentina: <span class="titulo-destacado fw-semibold">1985</span>
+                    </h4>
+                    <p class="border-top fs-5"> cuenta el modo en que un fiscal y su ayudante logran acusar a los
+                        miembros de las juntas militares y cómo los jueces terminan condenando a prisión perpetua a
+                        algunos de ellos
+                    </p>
+                    <p class="fs-5">La película encadena sus escenas a partir de una cronología del juicio vista desde
+                        la perspectiva de sus dos protagonistas, que no solo cumplen sus tareas como funcionarios, sino
+                        que interactúan entre sí, con sus familias y con los otros personajes.</p>
+                </div>
+                <!--------- HeuH --------->
+                <div class="col-12 col-lg-3 border shadow p-4 mb-5 zoom background-cards-libros-alt">
+                    <h4 class="fw-semibold fs-1">Hasta el último <span
+                            class="titulo-destacado fw-semibold">Hombre</span>
+                    </h4>
+                    <p class="border-top fs-5">Esta es la historia de Desmond T. Doss, un hombre contrario a la
+                        violencia que combatió como médico en la Segunda Guerra Mundial sin portar un arma.
+                    </p>
+                    <p class="fs-5">No disparó ni una bala, pero salvó a 75 personas de la muerte en la batalla de la
+                        isla de Okinawa. Gracias a su coraje, pasó de ser el objeto de las burlas de sus compañeros a
+                        ser reconocido por su enorme valía con la entrega de la Medalla de Honor del Congreso, otorgada
+                        por primera vez a un objetor de conciencia.</p>
+                </div>
+                <!--------- tLD --------->
+                <div class="col-12 col-lg-3 border shadow p-4 mb-5 zoom background-cards-libros-alt">
+                    <h4 class="fw-semibold fs-1">The last <br> <span class="titulo-destacado fw-semibold">Duel</span>
+                    </h4>
+                    <p class="border-top fs-5"> Historia del duelo entre Jean de Carrouges y Jacques Le Gris, dos amigos
+                        que se convirtieron en rivales.
+                    </p>
+                    <p class="fs-5"> Cuando la mujer de Carrouges, es acosada por Le Gris, algo que él niega, ella no se
+                        queda callada y lo acusa. El consiguiente duelo a muerte determina el destino de los tres.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid background--tres texto-footer p-4 border-top">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="d-flex flex-column align-items-center col-lg-3 align-items-lg-start">
+                    <a href="#" class="texto-logo ">HpQ</a>
+                    <p class="fs-6">Historia para Qué ⓒ 2022 Todos los derechos reservados</p>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="d-flex justify-content-center">Redes sociales</h4>
+                    <div class="d-flex justify-content-around fs-2">
+                        <a class="bi bi-instagram"></a>
+                        <a class="bi bi-twitter"></a>
+                        <a class="bi bi-youtube"></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

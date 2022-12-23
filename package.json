@@ -1,0 +1,12 @@
+{
+  "name": "pre-entrega-3-lampmann",
+  "version": "1.0.0",
+  "description": "pagina sobre historia y los personajes de ella. recomendacion de peliculas y demas",
+  "main": "index.js",
+  "scripts": {
+    "entrega3":"sass --watch scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
